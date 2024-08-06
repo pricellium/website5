@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Create Subdomain</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link href="/res/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="subdomain-wrapper">
+    <div id="content-container">
+        <div id="subdomain-container">
+            <div id="subdomain-sub-container">
+                <div id="subdomain-sub-header">
+                    <img height='60' width='225' src="/images/vplogo.png" alt="logo" />
+                </div>
+                <div id="subdomain-sub">
+                    <div id="forms">
+                        <form id="subdomain_form" action="create_subdomain.php" method="post">
+                            <div class="input-req-subdomain"><label for="subdomain">Subdomain</label></div>
+                            <div class="input-field-subdomain icon subdomain-container">
+                                <input name="subdomain" id="subdomain" value="" placeholder="Enter your desired subdomain." class="std_textbox" type="text" tabindex="1" required>
+                            </div>
+                            <div class="subdomain-btn">
+                                <button name="create" type="submit" id="subdomain_submit" tabindex="2">Create Subdomain</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
